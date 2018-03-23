@@ -28,8 +28,8 @@ Follow the steps below to install this package on you system.
 
 1. Install the ```devtools``` package.
 2. Install and load the ```FARS.functions``` package:
-  - install_github()
-  - library()
+  - install_github("lahstorti/FARS.functions")
+  - library("FARS.functions")
 
 
 
@@ -48,3 +48,7 @@ This package contains a raw data file. To access this data you can use this line
 \#To access the data from 2015
 
 ```system.file("extdata", "accident_2015.csv.bz2", package = "FARS.functions")```
+
+## Travis
+
+[![Travis-CI Build Status](https://travis-ci.org/lahstorti/FARS.functions.svg?branch=master)](https://travis-ci.org/lahstorti/FARS.functions)
