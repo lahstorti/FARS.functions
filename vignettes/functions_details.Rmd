@@ -2,7 +2,11 @@
 title: "FARS functions details"
 author: "Lais Ferreira"
 date: "20/03/2018"
-output: html_document
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::knitr}
+  %\VignetteIndexEntry{Title of your vignette}
+  %\usepackage[UTF-8]{inputenc}
 ---
 
 ```{r setup, include=FALSE}
